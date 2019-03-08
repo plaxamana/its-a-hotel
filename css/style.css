@@ -37,6 +37,10 @@ p {
     color: #f7c08a;
 }
 
+.clr {
+    clear: both;
+}
+
 .lead {
     font-size: 20px;
 }
@@ -74,8 +78,8 @@ p {
 }
 
 .bg-primary {
-    background: #333;
-    color:#f7c08a;
+    background: #f7c08a;
+    color:#333;
 }
 
 /* Navbar */
@@ -145,7 +149,7 @@ p {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/photo-1.jpg') no-repeat;
+    background: url('../img/photo-1.jpg') no-repeat center/cover;
     min-height: 100%;
 }
 
@@ -160,4 +164,24 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
